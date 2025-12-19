@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Personal Profile</title>
+
+
+
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body {
+font-family: 'Poppins', sans-serif;
+line-height: 1.6;
+background-color: #f4f6f8;
+color: #333;
+}
+
+
+section {
+padding: 40px 20px;
+max-width: 1000px;
+margin: auto;
+display: block; /* display requirement */
+}
+
+
+/* ===== Header ===== */
+header {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97');
+background-size: cover;
+background-position: center;
+color: #fff;
+text-align: center;
+padding: 80px 20px;
+}
+
+
+header h1 {
+font-size: 36px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+
+header p {
+font-size: 18px;
+font-weight: 300;
+display: inline-block; /* display requirement */
+margin-top: 10px;
+}
+
+
+/* ===== Profile Section (Flexbox) ===== */
+.profile {
+display: flex;
+justify-content: space-between;
+}
+</style>
+</head>
+<body>
+
+
+<!-- Header -->
+<header>
+<h1>Eldana Geremew</h1>
+<p>Pre‑Engineering & Computer Science Student</p>
+</header>
+
+
+<!-- Profile -->
+<section class="profile">
+<img src="https://via.placeholder.com/200" alt="Profile Image">
+<div class="bio">
+<h2>About Me</h2>
+<p>
+I am a passionate student interested in programming, problem solving,
+and technology. I enjoy learning new skills and building creative
+projects using HTML, CSS, and other tools.
+</p>
+</div>
+</section>
+
+
+<!-- Skills -->
+<section class="skills">
+<h2>Skills</h2>
+<div class="skills-grid">
+<div class="skill-box">HTML</div>
+<div class="skill-box">CSS</div>
+<div class="skill-box">Python</div>
+<div class="skill-box">Problem Solving</div>
+</div>
+</section>
+
+
+<!-- Contact -->
+<section class="contact">
+<h2>Contact Me</h2>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="4" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+
+<!-- Footer -->
+<footer>
+<p>© 2025 Eldana Geremew. All Rights Reserved.</p>
+</footer>
+
+
+</body>
+</html>
